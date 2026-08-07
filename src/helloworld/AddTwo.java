@@ -3,5 +3,6 @@ package helloworld;
 public class AddTwo {
 	public static void main(String[] args) {
 		System.out.println(2+4);
+		System.out.println(4-2);
 	}
 }
