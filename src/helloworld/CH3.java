@@ -16,5 +16,12 @@ public class CH3 {
 
         System.out.println("name: " + name);
         System.out.println("age: " + age);
+        /*Comment starts
+        comment continues
+        comment continues
+        .
+        .
+        .
+        Commnent ends*/
     }
 }
