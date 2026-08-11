@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class HW4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner input=new Scanner(System.in);
 		System.out.println("enter the user name:");
 		String urname=input.nextLine();
@@ -20,6 +20,7 @@ public class HW4 {
 		}else {
 			System.out.println("Invalid credentials or role.");
 		}
+		input.close();
 	}
 
 }
