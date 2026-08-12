@@ -3,7 +3,7 @@ package helloworld;
 public class CW5 {
 
 	public static void main(String[] args) {
-		int mark[]= {90,70,60,52,40};
+		int mark[]= {90,78,60,52,40};
 		for(int i=0;i<mark.length;i++) {
 			if(mark[i]>=90) {
 				System.out.println(mark[i]+":Excellent");
