@@ -3,12 +3,12 @@ package helloworld;
 public class HW6 {
 
 	public static void main(String[] args) {
-		int arr[]= {78, 82, 91, 65, 36};
+		int arr[]= {100, 100, 98, 100, 99};
 		int total=0;
 		int avg=0;
 		int out=0;
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]<35) {
+		for(int i:arr) {
+			if(i<35) {
 				System.out.println("Fail");
 				out=1;
 				break;
@@ -16,7 +16,7 @@ public class HW6 {
 			
 			
 				
-				total=total+arr[i];
+				total=total+i;
 				avg=total/arr.length;
 			}
 		if(out==0) {
