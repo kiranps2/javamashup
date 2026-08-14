@@ -10,7 +10,7 @@ public class HW7 {
 			System.out.println("10% discount");
 			total = total - (total * 0.10);
 		}
-        System.out.println("Final Amount of yours = Rs." +total);
+        System.out.println("Final Amount = Rs." +total);
 
 		return total;
 	}
