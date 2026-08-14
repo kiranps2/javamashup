@@ -1,5 +1,7 @@
 package helloworld;
 import java.util.Scanner;
+import java.time.LocalDateTime; // import the LocalDateTime class
+
 public class HW7 {
 	public static double Calc(int[] quantity, int[] price) {
 		double total=0;
@@ -35,6 +37,8 @@ public class HW7 {
 		         System.out.println("Number should not be divided by zero");
 		      } 
 		}
+		 LocalDateTime currDateTime = LocalDateTime.now();
+		    System.out.println("current date and time of the purchase:"+currDateTime);
 		Calc(quantity, price);
 		
 	}
