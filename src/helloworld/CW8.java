@@ -21,7 +21,7 @@ public class CW8 {
 			System.out.println("Run");
 		}
 	}
-	static class Zoo{
+	public class Zoo{
 		
 	public static void main(String[] args) {
 		
