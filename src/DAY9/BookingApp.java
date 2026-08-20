@@ -11,14 +11,14 @@ public class BookingApp {
 		int dis=input.nextInt();
 		if(ridetyp.equals("auto")) {
 			auto.rideType();
-			System.out.println("total km: "+dis*auto.calculateFare(dis));
+			System.out.println("total km: "+dis*auto.calculateFare());
 			
 		}else if(ridetyp.equals("car")) {
 			car.rideType();
-			System.out.println("total km: "+dis*car.calculateFare(dis));
+			System.out.println("total km: "+dis*car.calculateFare());
 		}
 		
-		
+	input.close();	
 	}
 
 }
