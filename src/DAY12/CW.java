@@ -22,8 +22,12 @@ public class CW {
 		      System.out.println("Data in the file:");
 		      System.out.println(array);
 		       System.out.println("Data is written to the file.");
-			
-			
+		       file.delete();
+		       if(file.exists()) {
+					System.out.println("file created");
+				}else {
+					System.out.println("file deleteed");
+				}
 			
 		}catch(Exception e){
 			e.getStackTrace();
